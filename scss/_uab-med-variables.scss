@@ -1,0 +1,154 @@
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+$brand-uab-med:                 #006d47 !default;
+$brand-uab-med-blue:            #338cb9 !default;
+$brand-uab-med-red:             #bc1116 !default;
+$brand-uab-med-light-green:     #cee0b3 !default;
+$brand-uab-med-gold:            #ebd38b !default;
+$brand-uab-med-offwhite:        #f0f0e4 !default;
+$brand-uab-med-gray:            #d9d9d9 !default;
+$brand-uab-med-pale-blue:       #c1cfda !default;
+$brand-uab-med-aqua:            #abc5db !default;
+$brand-uab-med-blue-green:      #c3dfe0 !default;
+$brand-uab-med-sand:            #f1e5c7 !default;
+
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-uab-med-color:              #fff !default;
+$btn-uab-med-bg:                 $brand-uab-med !default;
+$btn-uab-med-border:             $btn-uab-med-bg !default;
+
+$btn-uab-med-blue-color:         #fff !default;
+$btn-uab-med-blue-bg:            $brand-uab-med-blue !default;
+$btn-uab-med-blue-border:        $btn-uab-med-blue-bg !default;
+
+$btn-uab-med-red-color:          #fff !default;
+$btn-uab-med-red-bg:             $brand-uab-med-red !default;
+$btn-uab-med-red-border:         $btn-uab-med-red-bg !default;
+
+$btn-uab-med-light-green-color:  #fff !default;
+$btn-uab-med-light-green-bg:     $brand-uab-med-light-green !default;
+$btn-uab-med-light-green-border: $btn-uab-med-light-green-bg !default;
+
+$btn-uab-med-gold-color:         #fff !default;
+$btn-uab-med-gold-bg:            $brand-uab-med-gold !default;
+$btn-uab-med-gold-border:        $btn-uab-med-gold-bg !default;
+
+$btn-uab-med-offwhite-color:     #fff !default;
+$btn-uab-med-offwhite-bg:        $brand-uab-med-offwhite !default;
+$btn-uab-med-offwhite-border:    $btn-uab-med-offwhite-bg !default;
+
+$btn-uab-med-gray-color:         #fff !default;
+$btn-uab-med-gray-bg:            $brand-uab-med-gray !default;
+$btn-uab-med-gray-border:        $btn-uab-med-gray-bg !default;
+
+$btn-uab-med-pale-blue-color:    #fff !default;
+$btn-uab-med-pale-blue-bg:       $brand-uab-med-pale-blue !default;
+$btn-uab-med-pale-blue-border:   $btn-uab-med-pale-blue-bg !default;
+
+$btn-uab-med-aqua-color:         #fff !default;
+$btn-uab-med-aqua-bg:            $brand-uab-med-aqua !default;
+$btn-uab-med-aqua-border:        $btn-uab-med-aqua-bg !default;
+
+$btn-uab-med-blue-green-color:   #fff !default;
+$btn-uab-med-blue-green-bg:      $brand-uab-med-blue-green !default;
+$btn-uab-med-blue-green-border:  $btn-uab-med-blue-green-bg !default;
+
+$btn-uab-med-sand-color:         #fff !default;
+$btn-uab-med-sand-bg:            $brand-uab-med-sand !default;
+$btn-uab-med-sand-border:        $btn-uab-med-sand-bg !default;
+
+// Navbar
+
+$navbar-white-color:                              rgba(0,0,0,.6) !default;
+$navbar-white-hover-color:                        rgba(0,0,0,.8) !default;
+$navbar-white-active-color:                       rgba(0,0,0,1) !default;
+$navbar-white-disabled-color:                     rgba(0,0,0,.3) !default;
+
+$navbar-uab-med-links-color:                      rgba($brand-uab-med,.5) !default;
+$navbar-uab-med-links-hover-color:                rgba($brand-uab-med,.75) !default;
+$navbar-uab-med-links-active-color:               rgba($brand-uab-med,1) !default;
+$navbar-uab-med-links-disabled-color:             rgba($brand-uab-med,.25) !default;
+
+$navbar-uab-med-blue-links-color:                 rgba($brand-uab-med-blue,.5) !default;
+$navbar-uab-med-blue-links-hover-color:           rgba($brand-uab-med-blue,.75) !default;
+$navbar-uab-med-blue-links-active-color:          rgba($brand-uab-med-blue,1) !default;
+$navbar-uab-med-blue-links-disabled-color:        rgba($brand-uab-med-blue,.25) !default;
+
+$navbar-uab-med-red-links-color:                  rgba($brand-uab-med-red,.5) !default;
+$navbar-uab-med-red-links-hover-color:            rgba($brand-uab-med-red,.75) !default;
+$navbar-uab-med-red-links-active-color:           rgba($brand-uab-med-red,1) !default;
+$navbar-uab-med-red-links-disabled-color:         rgba($brand-uab-med-red,.25) !default;
+
+$navbar-uab-med-light-green-links-color:          rgba($brand-uab-med-light-green,.5) !default;
+$navbar-uab-med-light-green-links-hover-color:    rgba($brand-uab-med-light-green,.75) !default;
+$navbar-uab-med-light-green-links-active-color:   rgba($brand-uab-med-light-green,1) !default;
+$navbar-uab-med-light-green-links-disabled-color: rgba($brand-uab-med-light-green,.25) !default;
+
+$navbar-uab-med-gold-links-color:                 rgba($brand-uab-med-gold,.5) !default;
+$navbar-uab-med-gold-links-hover-color:           rgba($brand-uab-med-gold,.75) !default;
+$navbar-uab-med-gold-links-active-color:          rgba($brand-uab-med-gold,1) !default;
+$navbar-uab-med-gold-links-disabled-color:        rgba($brand-uab-med-gold,.25) !default;
+
+$navbar-uab-med-offwhite-links-color:             rgba($brand-uab-med-offwhite,.5) !default;
+$navbar-uab-med-offwhite-links-hover-color:       rgba($brand-uab-med-offwhite,.75) !default;
+$navbar-uab-med-offwhite-links-active-color:      rgba($brand-uab-med-offwhite,1) !default;
+$navbar-uab-med-offwhite-links-disabled-color:    rgba($brand-uab-med-offwhite,.25) !default;
+
+$navbar-uab-med-gray-links-color:                 rgba($brand-uab-med-gray,.5) !default;
+$navbar-uab-med-gray-links-hover-color:           rgba($brand-uab-med-gray,.75) !default;
+$navbar-uab-med-gray-links-active-color:          rgba($brand-uab-med-gray,1) !default;
+$navbar-uab-med-gray-links-disabled-color:        rgba($brand-uab-med-gray,.25) !default;
+
+$navbar-uab-med-pale-blue-links-color:            rgba($brand-uab-med-pale-blue,.5) !default;
+$navbar-uab-med-pale-blue-links-hover-color:      rgba($brand-uab-med-pale-blue,.75) !default;
+$navbar-uab-med-pale-blue-links-active-color:     rgba($brand-uab-med-pale-blue,1) !default;
+$navbar-uab-med-pale-blue-links-disabled-color:   rgba($brand-uab-med-pale-blue,.25) !default;
+
+$navbar-uab-med-aqua-links-color:                 rgba($brand-uab-med-aqua,.5) !default;
+$navbar-uab-med-aqua-links-hover-color:           rgba($brand-uab-med-aqua,.75) !default;
+$navbar-uab-med-aqua-links-active-color:          rgba($brand-uab-med-aqua,1) !default;
+$navbar-uab-med-aqua-links-disabled-color:        rgba($brand-uab-med-aqua,.25) !default;
+
+$navbar-uab-med-blue-green-links-color:           rgba($brand-uab-med-blue-green,.5) !default;
+$navbar-uab-med-blue-green-links-hover-color:     rgba($brand-uab-med-blue-green,.75) !default;
+$navbar-uab-med-blue-green-links-active-color:    rgba($brand-uab-med-blue-green,1) !default;
+$navbar-uab-med-blue-green-links-disabled-color:  rgba($brand-uab-med-blue-green,.25) !default;
+
+$navbar-uab-med-sand-links-color:                 rgba($brand-uab-med-sand,.5) !default;
+$navbar-uab-med-sand-links-hover-color:           rgba($brand-uab-med-sand,.75) !default;
+$navbar-uab-med-sand-links-active-color:          rgba($brand-uab-med-sand,1) !default;
+$navbar-uab-med-sand-links-disabled-color:        rgba($brand-uab-med-sand,.25) !default;
+
+// Labels
+
+$label-uab-med-bg:             $brand-uab-med !default;
+$label-uab-med-blue-bg:        $brand-uab-med-blue !default;
+$label-uab-med-red-bg:         $brand-uab-med-red !default;
+$label-uab-med-light-green-bg: $brand-uab-med-light-green !default;
+$label-uab-med-gold-bg:        $brand-uab-med-gold !default;
+$label-uab-med-offwhite-bg:    $brand-uab-med-offwhite !default;
+$label-uab-med-gray-bg:        $brand-uab-med-gray !default;
+$label-uab-med-pale-blue-bg:   $brand-uab-med-pale-blue !default;
+$label-uab-med-aqua-bg:        $brand-uab-med-aqua !default;
+$label-uab-med-blue-green-bg:  $brand-uab-med-blue-green !default;
+$label-uab-med-sand-bg:        $brand-uab-med-sand !default;
+
+// Progress bars
+
+$progress-bar-uab-med-bg:             $brand-uab-med !default;
+$progress-bar-uab-med-blue-bg:        $brand-uab-med-blue !default;
+$progress-bar-uab-med-red-bg:         $brand-uab-med-red !default;
+$progress-bar-uab-med-light-green-bg: $brand-uab-med-light-green !default;
+$progress-bar-uab-med-gold-bg:        $brand-uab-med-gold !default;
+$progress-bar-uab-med-offwhite-bg:    $brand-uab-med-offwhite !default;
+$progress-bar-uab-med-gray-bg:        $brand-uab-med-gray !default;
+$progress-bar-uab-med-pale-blue-bg:   $brand-uab-med-pale-blue !default;
+$progress-bar-uab-med-aqua-bg:        $brand-uab-med-aqua !default;
+$progress-bar-uab-med-blue-green-bg:  $brand-uab-med-blue-green !default;
+$progress-bar-uab-med-sand-bg:        $brand-uab-med-sand !default;

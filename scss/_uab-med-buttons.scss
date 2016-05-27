@@ -1,0 +1,73 @@
+//
+// Alternate buttons
+//
+
+.btn-uab-med, .btn-uab-med-green {
+  @include button-variant($btn-uab-med-color, $btn-uab-med-bg, $btn-uab-med-border);
+}
+.btn-uab-med-blue {
+  @include button-variant($btn-uab-med-blue-color, $btn-uab-med-blue-bg, $btn-uab-med-blue-border);
+}
+.btn-uab-med-red {
+  @include button-variant($btn-uab-med-red-color, $btn-uab-med-red-bg, $btn-uab-med-red-border);
+}
+.btn-uab-med-light-green {
+  @include button-variant($btn-uab-med-light-green-color, $btn-uab-med-light-green-bg, $btn-uab-med-light-green-border);
+}
+.btn-uab-med-gold {
+  @include button-variant($btn-uab-med-gold-color, $btn-uab-med-gold-bg, $btn-uab-med-gold-border);
+}
+.btn-uab-med-offwhite {
+  @include button-variant($btn-uab-med-offwhite-color, $btn-uab-med-offwhite-bg, $btn-uab-med-offwhite-border);
+}
+.btn-uab-med-gray {
+  @include button-variant($btn-uab-med-gray-color, $btn-uab-med-gray-bg, $btn-uab-med-gray-border);
+}
+.btn-uab-med-pale-blue {
+  @include button-variant($btn-uab-med-pale-blue-color, $btn-uab-med-pale-blue-bg, $btn-uab-med-pale-blue-border);
+}
+.btn-uab-med-aqua {
+  @include button-variant($btn-uab-med-aqua-color, $btn-uab-med-aqua-bg, $btn-uab-med-aqua-border);
+}
+.btn-uab-med-blue-green {
+  @include button-variant($btn-uab-med-blue-green-color, $btn-uab-med-blue-green-bg, $btn-uab-med-blue-green-border);
+}
+.btn-uab-med-sand {
+  @include button-variant($btn-uab-med-sand-color, $btn-uab-med-sand-bg, $btn-uab-med-sand-border);
+}
+
+// Remove all backgrounds
+
+.btn-uab-med-outline, .btn-uab-med-green-outline {
+  @include button-outline-variant($btn-uab-med-bg);
+}
+.btn-uab-med-blue-outline {
+  @include button-outline-variant($btn-uab-med-blue-bg);
+}
+.btn-uab-med-red-outline {
+  @include button-outline-variant($btn-uab-med-red-bg);
+}
+.btn-uab-med-light-green-outline {
+  @include button-outline-variant($btn-uab-med-light-green-bg);
+}
+.btn-uab-med-gold-outline {
+  @include button-outline-variant($btn-uab-med-gold-bg);
+}
+.btn-uab-med-offwhite-outline {
+  @include button-outline-variant($btn-uab-med-offwhite-bg);
+}
+.btn-uab-med-gray-outline {
+  @include button-outline-variant($btn-uab-med-gray-bg);
+}
+.btn-uab-med-pale-blue-outline {
+  @include button-outline-variant($btn-uab-med-pale-blue-bg);
+}
+.btn-uab-med-aqua-outline {
+  @include button-outline-variant($btn-uab-med-aqua-bg);
+}
+.btn-uab-med-blue-green-outline {
+  @include button-outline-variant($btn-uab-med-blue-green-bg);
+}
+.btn-uab-med-sand-outline {
+  @include button-outline-variant($btn-uab-med-sand-bg);
+}

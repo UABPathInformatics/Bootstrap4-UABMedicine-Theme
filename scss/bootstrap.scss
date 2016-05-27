@@ -6,6 +6,7 @@
 
 // Core variables and mixins
 @import "variables";
+@import "uab-med-variables";
 @import "mixins";
 
 // Reset and dependencies
@@ -21,6 +22,7 @@
 @import "tables";
 @import "forms";
 @import "buttons";
+@import "uab-med-buttons";
 
 // Components
 @import "animation";
@@ -30,14 +32,17 @@
 @import "custom-forms";
 @import "nav";
 @import "navbar";
+@import "uab-med-navbar";
 @import "card";
 @import "breadcrumb";
 @import "pagination";
 @import "pager";
 @import "labels";
+@import "uab-med-labels";
 @import "jumbotron";
 @import "alert";
 @import "progress";
+@import "uab-med-progress";
 @import "media";
 @import "list-group";
 @import "responsive-embed";
@@ -51,6 +56,8 @@
 
 // Utility classes
 @import "utilities";
+@import "uab-med-utilities";
 @import "utilities-background";
+@import "uab-med-utilities-background";
 @import "utilities-spacing";
 @import "utilities-responsive";

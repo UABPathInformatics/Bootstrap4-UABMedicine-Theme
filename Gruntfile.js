@@ -238,7 +238,7 @@ module.exports = function (grunt) {
     // CSS build configuration
     scsslint: {
       options: {
-        bundleExec: true,
+        bundleExec: false,
         config: 'scss/.scss-lint.yml',
         reporterOutput: null
       },
@@ -362,12 +362,12 @@ module.exports = function (grunt) {
     htmllint: {
       options: {
         ignore: [
-          'Element “img” is missing required attribute “src”.',
-          'Attribute “autocomplete” is only allowed when the input type is “color”, “date”, “datetime”, “datetime-local”, “email”, “month”, “number”, “password”, “range”, “search”, “tel”, “text”, “time”, “url”, or “week”.',
-          'Attribute “autocomplete” not allowed on element “button” at this point.',
-          'Element “div” not allowed as child of element “progress” in this context. (Suppressing further errors from this subtree.)',
-          'Consider using the “h1” element as a top-level heading only (all “h1” elements are treated as top-level headings by many screen readers and other tools).',
-          'The “datetime” input type is not supported in all browsers. Please be sure to test, and consider using a polyfill.'
+          'Element â€œimgâ€� is missing required attribute â€œsrcâ€�.',
+          'Attribute â€œautocompleteâ€� is only allowed when the input type is â€œcolorâ€�, â€œdateâ€�, â€œdatetimeâ€�, â€œdatetime-localâ€�, â€œemailâ€�, â€œmonthâ€�, â€œnumberâ€�, â€œpasswordâ€�, â€œrangeâ€�, â€œsearchâ€�, â€œtelâ€�, â€œtextâ€�, â€œtimeâ€�, â€œurlâ€�, or â€œweekâ€�.',
+          'Attribute â€œautocompleteâ€� not allowed on element â€œbuttonâ€� at this point.',
+          'Element â€œdivâ€� not allowed as child of element â€œprogressâ€� in this context. (Suppressing further errors from this subtree.)',
+          'Consider using the â€œh1â€� element as a top-level heading only (all â€œh1â€� elements are treated as top-level headings by many screen readers and other tools).',
+          'The â€œdatetimeâ€� input type is not supported in all browsers. Please be sure to test, and consider using a polyfill.'
         ]
       },
       src: ['_gh_pages/**/*.html', 'js/tests/visual/*.html']

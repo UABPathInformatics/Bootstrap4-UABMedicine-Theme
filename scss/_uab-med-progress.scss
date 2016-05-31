@@ -1,36 +1,36 @@
 //
 // Variations
 //
-.progress-uab-med, .progress-uab-med-green {
-  @include progress-variant($progress-bar-uab-med-bg);
+.progress-uab, .progress-uab-green {
+  @include progress-variant($progress-bar-uab-bg);
 }
-.progress-uab-med-blue {
-  @include progress-variant($progress-bar-uab-med-blue-bg);
+.progress-uab-blue {
+  @include progress-variant($progress-bar-uab-blue-bg);
 }
-.progress-uab-med-red {
-  @include progress-variant($progress-bar-uab-med-red-bg);
+.progress-uab-red {
+  @include progress-variant($progress-bar-uab-red-bg);
 }
-.progress-uab-med-light-green {
-  @include progress-variant($progress-bar-uab-med-light-green-bg);
+.progress-uab-light-green {
+  @include progress-variant($progress-bar-uab-light-green-bg);
 }
-.progress-uab-med-gold {
-  @include progress-variant($progress-bar-uab-med-gold-bg);
+.progress-uab-gold {
+  @include progress-variant($progress-bar-uab-gold-bg);
 }
-.progress-uab-med-offwhite {
-  @include progress-variant($progress-bar-uab-med-offwhite-bg);
+.progress-uab-offwhite {
+  @include progress-variant($progress-bar-uab-offwhite-bg);
 }
-.progress-uab-med-gray {
-  @include progress-variant($progress-bar-uab-med-gray-bg);
+.progress-uab-gray {
+  @include progress-variant($progress-bar-uab-gray-bg);
 }
-.progress-uab-med-pale-blue {
-  @include progress-variant($progress-bar-uab-med-pale-blue-bg);
+.progress-uab-pale-blue {
+  @include progress-variant($progress-bar-uab-pale-blue-bg);
 }
-.progress-uab-med-aqua {
-  @include progress-variant($progress-bar-uab-med-aqua-bg);
+.progress-uab-aqua {
+  @include progress-variant($progress-bar-uab-aqua-bg);
 }
-.progress-uab-med-blue-green {
-  @include progress-variant($progress-bar-uab-med-blue-green-bg);
+.progress-uab-blue-green {
+  @include progress-variant($progress-bar-uab-blue-green-bg);
 }
-.progress-uab-med-sand {
-  @include progress-variant($progress-bar-uab-med-sand-bg);
+.progress-uab-sand {
+  @include progress-variant($progress-bar-uab-sand-bg);
 }

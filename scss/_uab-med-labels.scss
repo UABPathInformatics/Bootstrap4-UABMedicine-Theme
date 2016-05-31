@@ -2,46 +2,46 @@
 //
 // Contextual variations (linked labels get darker on :hover).
 
-.label-uab-med, .label-uab-med-green {
-  @include label-variant($label-uab-med-bg);
+.label-uab, .label-uab-green {
+  @include label-variant($label-uab-bg);
 }
 
-.label-uab-med-blue {
-  @include label-variant($label-uab-med-blue-bg);
+.label-uab-blue {
+  @include label-variant($label-uab-blue-bg);
 }
 
-.label-uab-med-red {
-  @include label-variant($label-uab-med-red-bg);
+.label-uab-red {
+  @include label-variant($label-uab-red-bg);
 }
 
-.label-uab-med-light-green {
-  @include label-variant($label-uab-med-light-green-bg);
+.label-uab-light-green {
+  @include label-variant($label-uab-light-green-bg);
 }
 
-.label-uab-med-gold {
-  @include label-variant($label-uab-med-gold-bg);
+.label-uab-gold {
+  @include label-variant($label-uab-gold-bg);
 }
 
-.label-uab-med-offwhite {
-  @include label-variant($label-uab-med-offwhite-bg);
+.label-uab-offwhite {
+  @include label-variant($label-uab-offwhite-bg);
 }
 
-.label-uab-med-gray {
-  @include label-variant($label-uab-med-gray-bg);
+.label-uab-gray {
+  @include label-variant($label-uab-gray-bg);
 }
 
-.label-uab-med-pale-blue {
-  @include label-variant($label-uab-med-pale-blue-bg);
+.label-uab-pale-blue {
+  @include label-variant($label-uab-pale-blue-bg);
 }
 
-.label-uab-med-aqua {
-  @include label-variant($label-uab-med-aqua-bg);
+.label-uab-aqua {
+  @include label-variant($label-uab-aqua-bg);
 }
 
-.label-uab-med-blue-green {
-  @include label-variant($label-uab-med-blue-green-bg);
+.label-uab-blue-green {
+  @include label-variant($label-uab-blue-green-bg);
 }
 
-.label-uab-med-sand {
-  @include label-variant($label-uab-med-sand-bg);
+.label-uab-sand {
+  @include label-variant($label-uab-sand-bg);
 }

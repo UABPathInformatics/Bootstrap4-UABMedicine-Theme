@@ -1,6 +1,7 @@
 /*!
- * Bootstrap v4.0.0-alpha.2 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
@@ -8,6 +9,7 @@
 @import "variables";
 @import "uab-med-variables";
 @import "mixins";
+@import "custom";
 
 // Reset and dependencies
 @import "normalize";
@@ -25,7 +27,7 @@
 @import "uab-med-buttons";
 
 // Components
-@import "animation";
+@import "transitions";
 @import "dropdown";
 @import "button-group";
 @import "input-group";
@@ -34,15 +36,14 @@
 @import "navbar";
 @import "uab-med-navbar";
 @import "card";
+@import "uab-med-card";
 @import "breadcrumb";
 @import "pagination";
-@import "pager";
-@import "labels";
-@import "uab-med-labels";
+@import "badge";
+@import "uab-med-badges";
 @import "jumbotron";
 @import "alert";
 @import "progress";
-@import "uab-med-progress";
 @import "media";
 @import "list-group";
 @import "responsive-embed";
@@ -57,7 +58,4 @@
 // Utility classes
 @import "utilities";
 @import "uab-med-utilities";
-@import "utilities-background";
 @import "uab-med-utilities-background";
-@import "utilities-spacing";
-@import "utilities-responsive";

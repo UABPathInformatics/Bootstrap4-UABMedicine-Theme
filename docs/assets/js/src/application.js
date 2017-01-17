@@ -3,16 +3,17 @@
 // ++++++++++++++++++++++++++++++++++++++++++
 
 /*!
- * JavaScript for Bootstrap's docs (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * JavaScript for Bootstrap's docs (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
  * Licensed under the Creative Commons Attribution 3.0 Unported License. For
  * details, see https://creativecommons.org/licenses/by/3.0/.
  */
 
 /* global Clipboard, anchors */
 
-!function ($) {
-  'use strict';
+(function ($) {
+  'use strict'
 
   $(function () {
 
@@ -32,8 +33,24 @@
     $('.bd-example-indeterminate [type="checkbox"]').prop('indeterminate', true)
 
     // Disable empty links in docs examples
-    $('.bd-example [href=#]').click(function (e) {
+    $('.bd-content [href="#"]').click(function (e) {
       e.preventDefault()
+    })
+
+    // Modal relatedTarget demo
+    $('#exampleModal').on('show.bs.modal', function (event) {
+      var $button = $(event.relatedTarget)      // Button that triggered the modal
+      var recipient = $button.data('whatever')  // Extract info from data-* attributes
+      // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+      // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+      var $modal = $(this)
+      $modal.find('.modal-title').text('New message to ' + recipient)
+      $modal.find('.modal-body input').val(recipient)
+    })
+
+    // Activate animated progress bar
+    $('.bd-toggle-animated-progress').on('click', function () {
+      $(this).siblings('.progress').find('.progress-bar-striped').toggleClass('progress-bar-animated')
     })
 
     // Insert copy to clipboard button before .highlight
@@ -61,7 +78,8 @@
     })
 
     clipboard.on('error', function (e) {
-      var fallbackMsg = /Mac/i.test(navigator.userAgent) ? 'Press \u2318 to copy' : 'Press Ctrl-C to copy'
+      var modifierKey = /Mac/i.test(navigator.userAgent) ? '\u2318' : 'Ctrl-'
+      var fallbackMsg = 'Press ' + modifierKey + 'C to copy'
 
       $(e.trigger)
         .attr('title', fallbackMsg)
@@ -73,11 +91,11 @@
 
   })
 
-}(jQuery)
+}(jQuery))
 
 ;(function () {
-  'use strict';
+  'use strict'
 
-  anchors.options.placement = 'left';
+  anchors.options.placement = 'left'
   anchors.add('.bd-content > h1, .bd-content > h2, .bd-content > h3, .bd-content > h4, .bd-content > h5')
-})();
+}())

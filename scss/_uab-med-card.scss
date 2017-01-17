@@ -1,0 +1,73 @@
+//
+// Background variations
+//
+
+.card-uab-med, .card-uab-med-green {
+  @include card-variant($brand-uab-med, $brand-uab-med);
+}
+.card-uab-med-blue {
+  @include card-variant($brand-uab-med-blue, $brand-uab-med-blue);
+}
+.card-uab-med-red {
+  @include card-variant($brand-uab-med-red, $brand-uab-med-red);
+}
+.card-uab-med-light-green {
+  @include card-variant($brand-uab-med-light-green, $brand-uab-med-light-green);
+}
+.card-uab-med-gold {
+  @include card-variant($brand-uab-med-gold, $brand-uab-med-gold);
+}
+.card-uab-med-offwhite {
+  @include card-variant($brand-uab-med-offwhite, $brand-uab-med-offwhite);
+}
+.card-uab-med-gray {
+  @include card-variant($brand-uab-med-gray, $brand-uab-med-gray);
+}
+.card-uab-med-pale-blue {
+  @include card-variant($brand-uab-med-pale-blue, $brand-uab-med-pale-blue);
+}
+.card-uab-med-aqua {
+  @include card-variant($brand-uab-med-aqua, $brand-uab-med-aqua);
+}
+.card-uab-med-blue-green {
+  @include card-variant($brand-uab-med-blue-green, $brand-uab-med-blue-green);
+}
+.card-uab-med-sand {
+  @include card-variant($brand-uab-med-sand, $brand-uab-med-sand);
+}
+
+
+// Remove all backgrounds
+.card-outline-uab-med, .card-outline-uab-med-green {
+  @include card-outline-variant($btn-uab-med-bg);
+}
+.card-outline-uab-med-blue {
+  @include card-outline-variant($btn-uab-med-blue-bg);
+}
+.card-outline-uab-med-red {
+  @include card-outline-variant($btn-uab-med-red-bg);
+}
+.card-outline-uab-med-light-green {
+  @include card-outline-variant($btn-uab-med-light-green-bg);
+}
+.card-outline-uab-med-gold {
+  @include card-outline-variant($btn-uab-med-gold-bg);
+}
+.card-outline-uab-med-offwhite {
+  @include card-outline-variant($btn-uab-med-offwhite-bg);
+}
+.card-outline-uab-med-gray {
+  @include card-outline-variant($btn-uab-med-gray-bg);
+}
+.card-outline-uab-med-pale-blue {
+  @include card-outline-variant($btn-uab-med-pale-blue-bg);
+}
+.card-outline-uab-med-aqua {
+  @include card-outline-variant($btn-uab-med-aqua-bg);
+}
+.card-outline-uab-med-blue-green {
+  @include card-outline-variant($btn-uab-med-blue-green-bg);
+}
+.card-outline-uab-med-sand {
+  @include card-outline-variant($btn-uab-med-sand-bg);
+}

@@ -65,79 +65,103 @@ $btn-uab-med-sand-border:        $btn-uab-med-sand-bg !default;
 
 // Navbar
 
-$navbar-white-color:                              rgba(0,0,0,.6) !default;
-$navbar-white-hover-color:                        rgba(0,0,0,.8) !default;
-$navbar-white-active-color:                       rgba(0,0,0,1) !default;
+$navbar-white-color:                              rgba(0,0,0,.5) !default;
+$navbar-white-hover-color:                        rgba(0,0,0,.7) !default;
+$navbar-white-active-color:                       rgba(0,0,0,.9) !default;
 $navbar-white-disabled-color:                     rgba(0,0,0,.3) !default;
+$navbar-white-toggler-bg:                         str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-white-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-white-toggler-border:                     rgba(0,0,0,.1) !default;
 
-$navbar-uab-med-links-color:                      rgba($brand-uab-med,.5) !default;
-$navbar-uab-med-links-hover-color:                rgba($brand-uab-med,.75) !default;
-$navbar-uab-med-links-active-color:               rgba($brand-uab-med,1) !default;
-$navbar-uab-med-links-disabled-color:             rgba($brand-uab-med,.25) !default;
+$navbar-uab-med-color:                            rgba($brand-uab-med,.5) !default;
+$navbar-uab-med-hover-color:                      rgba($brand-uab-med,.7) !default;
+$navbar-uab-med-active-color:                     rgba($brand-uab-med,.9) !default;
+$navbar-uab-med-disabled-color:                   rgba($brand-uab-med,.3) !default;
+$navbar-uab-med-toggler-bg:                       str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-uab-med-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-uab-med-toggler-border:                   rgba($brand-uab-med,.1) !default;
 
-$navbar-uab-med-blue-links-color:                 rgba($brand-uab-med-blue,.5) !default;
-$navbar-uab-med-blue-links-hover-color:           rgba($brand-uab-med-blue,.75) !default;
-$navbar-uab-med-blue-links-active-color:          rgba($brand-uab-med-blue,1) !default;
-$navbar-uab-med-blue-links-disabled-color:        rgba($brand-uab-med-blue,.25) !default;
+$navbar-uab-med-blue-color:                       rgba($brand-uab-med-blue,.5) !default;
+$navbar-uab-med-blue-hover-color:                 rgba($brand-uab-med-blue,.7) !default;
+$navbar-uab-med-blue-active-color:                rgba($brand-uab-med-blue,.9) !default;
+$navbar-uab-med-blue-disabled-color:              rgba($brand-uab-med-blue,.3) !default;
+$navbar-uab-med-blue-toggler-bg:                  str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-uab-med-blue-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-uab-med-blue-toggler-border:              rgba($brand-uab-med-blue,.1) !default;
 
-$navbar-uab-med-red-links-color:                  rgba($brand-uab-med-red,.5) !default;
-$navbar-uab-med-red-links-hover-color:            rgba($brand-uab-med-red,.75) !default;
-$navbar-uab-med-red-links-active-color:           rgba($brand-uab-med-red,1) !default;
-$navbar-uab-med-red-links-disabled-color:         rgba($brand-uab-med-red,.25) !default;
+$navbar-uab-med-red-color:                        rgba($brand-uab-med-red,.5) !default;
+$navbar-uab-med-red-hover-color:                  rgba($brand-uab-med-red,.7) !default;
+$navbar-uab-med-red-active-color:                 rgba($brand-uab-med-red,.9) !default;
+$navbar-uab-med-red-disabled-color:               rgba($brand-uab-med-red,.3) !default;
+$navbar-uab-med-red-toggler-bg:                   str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-uab-med-red-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-uab-med-red-toggler-border:               rgba($brand-uab-med-red,.1) !default;
 
-$navbar-uab-med-light-green-links-color:          rgba($brand-uab-med-light-green,.5) !default;
-$navbar-uab-med-light-green-links-hover-color:    rgba($brand-uab-med-light-green,.75) !default;
-$navbar-uab-med-light-green-links-active-color:   rgba($brand-uab-med-light-green,1) !default;
-$navbar-uab-med-light-green-links-disabled-color: rgba($brand-uab-med-light-green,.25) !default;
+$navbar-uab-med-light-green-color:                rgba($brand-uab-med-light-green,.5) !default;
+$navbar-uab-med-light-green-hover-color:          rgba($brand-uab-med-light-green,.7) !default;
+$navbar-uab-med-light-green-active-color:         rgba($brand-uab-med-light-green,.9) !default;
+$navbar-uab-med-light-green-disabled-color:       rgba($brand-uab-med-light-green,.3) !default;
+$navbar-uab-med-light-green-toggler-bg:           str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-uab-med-light-green-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-uab-med-light-green-toggler-border:       rgba($brand-uab-med-light-green,.1) !default;
 
-$navbar-uab-med-gold-links-color:                 rgba($brand-uab-med-gold,.5) !default;
-$navbar-uab-med-gold-links-hover-color:           rgba($brand-uab-med-gold,.75) !default;
-$navbar-uab-med-gold-links-active-color:          rgba($brand-uab-med-gold,1) !default;
-$navbar-uab-med-gold-links-disabled-color:        rgba($brand-uab-med-gold,.25) !default;
+$navbar-uab-med-gold-color:                       rgba($brand-uab-med-gold,.5) !default;
+$navbar-uab-med-gold-hover-color:                 rgba($brand-uab-med-gold,.7) !default;
+$navbar-uab-med-gold-active-color:                rgba($brand-uab-med-gold,.9) !default;
+$navbar-uab-med-gold-disabled-color:              rgba($brand-uab-med-gold,.3) !default;
+$navbar-uab-med-gold-toggler-bg:                  str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-uab-med-gold-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-uab-med-gold-toggler-border:              rgba($brand-uab-med-gold,.1) !default;
 
-$navbar-uab-med-offwhite-links-color:             rgba($brand-uab-med-offwhite,.5) !default;
-$navbar-uab-med-offwhite-links-hover-color:       rgba($brand-uab-med-offwhite,.75) !default;
-$navbar-uab-med-offwhite-links-active-color:      rgba($brand-uab-med-offwhite,1) !default;
-$navbar-uab-med-offwhite-links-disabled-color:    rgba($brand-uab-med-offwhite,.25) !default;
+$navbar-uab-med-offwhite-color:                   rgba($brand-uab-med-offwhite,.5) !default;
+$navbar-uab-med-offwhite-hover-color:             rgba($brand-uab-med-offwhite,.7) !default;
+$navbar-uab-med-offwhite-active-color:            rgba($brand-uab-med-offwhite,.9) !default;
+$navbar-uab-med-offwhite-disabled-color:          rgba($brand-uab-med-offwhite,.3) !default;
+$navbar-uab-med-offwhite-toggler-bg:              str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-uab-med-offwhite-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-uab-med-offwhite-toggler-border:          rgba($brand-uab-med-offwhite,.1) !default;
 
-$navbar-uab-med-gray-links-color:                 rgba($brand-uab-med-gray,.5) !default;
-$navbar-uab-med-gray-links-hover-color:           rgba($brand-uab-med-gray,.75) !default;
-$navbar-uab-med-gray-links-active-color:          rgba($brand-uab-med-gray,1) !default;
-$navbar-uab-med-gray-links-disabled-color:        rgba($brand-uab-med-gray,.25) !default;
+$navbar-uab-med-gray-color:                       rgba($brand-uab-med-gray,.5) !default;
+$navbar-uab-med-gray-hover-color:                 rgba($brand-uab-med-gray,.7) !default;
+$navbar-uab-med-gray-active-color:                rgba($brand-uab-med-gray,.9) !default;
+$navbar-uab-med-gray-disabled-color:              rgba($brand-uab-med-gray,.3) !default;
+$navbar-uab-med-gray-toggler-bg:                  str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-uab-med-gray-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-uab-med-gray-toggler-border:              rgba($brand-uab-med-gray,.1) !default;
 
-$navbar-uab-med-pale-blue-links-color:            rgba($brand-uab-med-pale-blue,.5) !default;
-$navbar-uab-med-pale-blue-links-hover-color:      rgba($brand-uab-med-pale-blue,.75) !default;
-$navbar-uab-med-pale-blue-links-active-color:     rgba($brand-uab-med-pale-blue,1) !default;
-$navbar-uab-med-pale-blue-links-disabled-color:   rgba($brand-uab-med-pale-blue,.25) !default;
+$navbar-uab-med-pale-blue-color:                  rgba($brand-uab-med-pale-blue,.5) !default;
+$navbar-uab-med-pale-blue-hover-color:            rgba($brand-uab-med-pale-blue,.7) !default;
+$navbar-uab-med-pale-blue-active-color:           rgba($brand-uab-med-pale-blue,.9) !default;
+$navbar-uab-med-pale-blue-disabled-color:         rgba($brand-uab-med-pale-blue,.3) !default;
+$navbar-uab-med-pale-blue-toggler-bg:             str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-uab-med-pale-blue-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-uab-med-pale-blue-toggler-border:         rgba($brand-uab-med-pale-blue,.1) !default;
 
-$navbar-uab-med-aqua-links-color:                 rgba($brand-uab-med-aqua,.5) !default;
-$navbar-uab-med-aqua-links-hover-color:           rgba($brand-uab-med-aqua,.75) !default;
-$navbar-uab-med-aqua-links-active-color:          rgba($brand-uab-med-aqua,1) !default;
-$navbar-uab-med-aqua-links-disabled-color:        rgba($brand-uab-med-aqua,.25) !default;
+$navbar-uab-med-aqua-color:                       rgba($brand-uab-med-aqua,.5) !default;
+$navbar-uab-med-aqua-hover-color:                 rgba($brand-uab-med-aqua,.7) !default;
+$navbar-uab-med-aqua-active-color:                rgba($brand-uab-med-aqua,.9) !default;
+$navbar-uab-med-aqua-disabled-color:              rgba($brand-uab-med-aqua,.3) !default;
+$navbar-uab-med-aqua-toggler-bg:                  str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-uab-med-aqua-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-uab-med-aqua-toggler-border:              rgba($brand-uab-med-aqua,.1) !default;
 
-$navbar-uab-med-blue-green-links-color:           rgba($brand-uab-med-blue-green,.5) !default;
-$navbar-uab-med-blue-green-links-hover-color:     rgba($brand-uab-med-blue-green,.75) !default;
-$navbar-uab-med-blue-green-links-active-color:    rgba($brand-uab-med-blue-green,1) !default;
-$navbar-uab-med-blue-green-links-disabled-color:  rgba($brand-uab-med-blue-green,.25) !default;
+$navbar-uab-med-blue-green-color:                 rgba($brand-uab-med-blue-green,.5) !default;
+$navbar-uab-med-blue-green-hover-color:           rgba($brand-uab-med-blue-green,.7) !default;
+$navbar-uab-med-blue-green-active-color:          rgba($brand-uab-med-blue-green,.9) !default;
+$navbar-uab-med-blue-green-disabled-color:        rgba($brand-uab-med-blue-green,.3) !default;
+$navbar-uab-med-blue-green-toggler-bg:            str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-uab-med-blue-green-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-uab-med-blue-green-toggler-border:        rgba($brand-uab-med-blue-green,.1) !default;
 
-$navbar-uab-med-sand-links-color:                 rgba($brand-uab-med-sand,.5) !default;
-$navbar-uab-med-sand-links-hover-color:           rgba($brand-uab-med-sand,.75) !default;
-$navbar-uab-med-sand-links-active-color:          rgba($brand-uab-med-sand,1) !default;
-$navbar-uab-med-sand-links-disabled-color:        rgba($brand-uab-med-sand,.25) !default;
+$navbar-uab-med-sand-color:                       rgba($brand-uab-med-sand,.5) !default;
+$navbar-uab-med-sand-hover-color:                 rgba($brand-uab-med-sand,.7) !default;
+$navbar-uab-med-sand-active-color:                rgba($brand-uab-med-sand,.9) !default;
+$navbar-uab-med-sand-disabled-color:              rgba($brand-uab-med-sand,.3) !default;
+$navbar-uab-med-sand-toggler-bg:                  str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-uab-med-sand-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-uab-med-sand-toggler-border:              rgba($brand-uab-med-sand,.1) !default;
 
 // Labels
 
-$label-uab-med-bg:             $brand-uab-med !default;
-$label-uab-med-blue-bg:        $brand-uab-med-blue !default;
-$label-uab-med-red-bg:         $brand-uab-med-red !default;
-$label-uab-med-light-green-bg: $brand-uab-med-light-green !default;
-$label-uab-med-gold-bg:        $brand-uab-med-gold !default;
-$label-uab-med-offwhite-bg:    $brand-uab-med-offwhite !default;
-$label-uab-med-gray-bg:        $brand-uab-med-gray !default;
-$label-uab-med-pale-blue-bg:   $brand-uab-med-pale-blue !default;
-$label-uab-med-aqua-bg:        $brand-uab-med-aqua !default;
-$label-uab-med-blue-green-bg:  $brand-uab-med-blue-green !default;
-$label-uab-med-sand-bg:        $brand-uab-med-sand !default;
+$badge-uab-med-bg:             $brand-uab-med !default;
+$badge-uab-med-blue-bg:        $brand-uab-med-blue !default;
+$badge-uab-med-red-bg:         $brand-uab-med-red !default;
+$badge-uab-med-light-green-bg: $brand-uab-med-light-green !default;
+$badge-uab-med-gold-bg:        $brand-uab-med-gold !default;
+$badge-uab-med-offwhite-bg:    $brand-uab-med-offwhite !default;
+$badge-uab-med-gray-bg:        $brand-uab-med-gray !default;
+$badge-uab-med-pale-blue-bg:   $brand-uab-med-pale-blue !default;
+$badge-uab-med-aqua-bg:        $brand-uab-med-aqua !default;
+$badge-uab-med-blue-green-bg:  $brand-uab-med-blue-green !default;
+$badge-uab-med-sand-bg:        $brand-uab-med-sand !default;
 
 // Progress bars
 

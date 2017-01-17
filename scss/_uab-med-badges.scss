@@ -1,0 +1,47 @@
+// Colors
+//
+// Contextual variations (linked badges get darker on :hover).
+
+.badge-uab-med, .badge-uab-med-green {
+  @include badge-variant($badge-uab-med-bg);
+}
+
+.badge-uab-med-blue {
+  @include badge-variant($badge-uab-med-blue-bg);
+}
+
+.badge-uab-med-red {
+  @include badge-variant($badge-uab-med-red-bg);
+}
+
+.badge-uab-med-light-green {
+  @include badge-variant($badge-uab-med-light-green-bg);
+}
+
+.badge-uab-med-gold {
+  @include badge-variant($badge-uab-med-gold-bg);
+}
+
+.badge-uab-med-offwhite {
+  @include badge-variant($badge-uab-med-offwhite-bg);
+}
+
+.badge-uab-med-gray {
+  @include badge-variant($badge-uab-med-gray-bg);
+}
+
+.badge-uab-med-pale-blue {
+  @include badge-variant($badge-uab-med-pale-blue-bg);
+}
+
+.badge-uab-med-aqua {
+  @include badge-variant($badge-uab-med-aqua-bg);
+}
+
+.badge-uab-med-blue-green {
+  @include badge-variant($badge-uab-med-blue-green-bg);
+}
+
+.badge-uab-med-sand {
+  @include badge-variant($badge-uab-med-sand-bg);
+}

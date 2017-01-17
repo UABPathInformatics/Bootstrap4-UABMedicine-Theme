@@ -2,72 +2,72 @@
 // Background variations
 //
 
-.card-uab-med, .card-uab-med-green {
-  @include card-variant($brand-uab-med, $brand-uab-med);
+.card-uab, .card-uab-green {
+  @include card-variant($brand-uab, $brand-uab);
 }
-.card-uab-med-blue {
-  @include card-variant($brand-uab-med-blue, $brand-uab-med-blue);
+.card-uab-blue {
+  @include card-variant($brand-uab-blue, $brand-uab-blue);
 }
-.card-uab-med-red {
-  @include card-variant($brand-uab-med-red, $brand-uab-med-red);
+.card-uab-red {
+  @include card-variant($brand-uab-red, $brand-uab-red);
 }
-.card-uab-med-light-green {
-  @include card-variant($brand-uab-med-light-green, $brand-uab-med-light-green);
+.card-uab-light-green {
+  @include card-variant($brand-uab-light-green, $brand-uab-light-green);
 }
-.card-uab-med-gold {
-  @include card-variant($brand-uab-med-gold, $brand-uab-med-gold);
+.card-uab-gold {
+  @include card-variant($brand-uab-gold, $brand-uab-gold);
 }
-.card-uab-med-offwhite {
-  @include card-variant($brand-uab-med-offwhite, $brand-uab-med-offwhite);
+.card-uab-offwhite {
+  @include card-variant($brand-uab-offwhite, $brand-uab-offwhite);
 }
-.card-uab-med-gray {
-  @include card-variant($brand-uab-med-gray, $brand-uab-med-gray);
+.card-uab-gray {
+  @include card-variant($brand-uab-gray, $brand-uab-gray);
 }
-.card-uab-med-pale-blue {
-  @include card-variant($brand-uab-med-pale-blue, $brand-uab-med-pale-blue);
+.card-uab-pale-blue {
+  @include card-variant($brand-uab-pale-blue, $brand-uab-pale-blue);
 }
-.card-uab-med-aqua {
-  @include card-variant($brand-uab-med-aqua, $brand-uab-med-aqua);
+.card-uab-aqua {
+  @include card-variant($brand-uab-aqua, $brand-uab-aqua);
 }
-.card-uab-med-blue-green {
-  @include card-variant($brand-uab-med-blue-green, $brand-uab-med-blue-green);
+.card-uab-blue-green {
+  @include card-variant($brand-uab-blue-green, $brand-uab-blue-green);
 }
-.card-uab-med-sand {
-  @include card-variant($brand-uab-med-sand, $brand-uab-med-sand);
+.card-uab-sand {
+  @include card-variant($brand-uab-sand, $brand-uab-sand);
 }
 
 
 // Remove all backgrounds
-.card-outline-uab-med, .card-outline-uab-med-green {
-  @include card-outline-variant($btn-uab-med-bg);
+.card-outline-uab, .card-outline-uab-green {
+  @include card-outline-variant($btn-uab-bg);
 }
-.card-outline-uab-med-blue {
-  @include card-outline-variant($btn-uab-med-blue-bg);
+.card-outline-uab-blue {
+  @include card-outline-variant($btn-uab-blue-bg);
 }
-.card-outline-uab-med-red {
-  @include card-outline-variant($btn-uab-med-red-bg);
+.card-outline-uab-red {
+  @include card-outline-variant($btn-uab-red-bg);
 }
-.card-outline-uab-med-light-green {
-  @include card-outline-variant($btn-uab-med-light-green-bg);
+.card-outline-uab-light-green {
+  @include card-outline-variant($btn-uab-light-green-bg);
 }
-.card-outline-uab-med-gold {
-  @include card-outline-variant($btn-uab-med-gold-bg);
+.card-outline-uab-gold {
+  @include card-outline-variant($btn-uab-gold-bg);
 }
-.card-outline-uab-med-offwhite {
-  @include card-outline-variant($btn-uab-med-offwhite-bg);
+.card-outline-uab-offwhite {
+  @include card-outline-variant($btn-uab-offwhite-bg);
 }
-.card-outline-uab-med-gray {
-  @include card-outline-variant($btn-uab-med-gray-bg);
+.card-outline-uab-gray {
+  @include card-outline-variant($btn-uab-gray-bg);
 }
-.card-outline-uab-med-pale-blue {
-  @include card-outline-variant($btn-uab-med-pale-blue-bg);
+.card-outline-uab-pale-blue {
+  @include card-outline-variant($btn-uab-pale-blue-bg);
 }
-.card-outline-uab-med-aqua {
-  @include card-outline-variant($btn-uab-med-aqua-bg);
+.card-outline-uab-aqua {
+  @include card-outline-variant($btn-uab-aqua-bg);
 }
-.card-outline-uab-med-blue-green {
-  @include card-outline-variant($btn-uab-med-blue-green-bg);
+.card-outline-uab-blue-green {
+  @include card-outline-variant($btn-uab-blue-green-bg);
 }
-.card-outline-uab-med-sand {
-  @include card-outline-variant($btn-uab-med-sand-bg);
+.card-outline-uab-sand {
+  @include card-outline-variant($btn-uab-sand-bg);
 }

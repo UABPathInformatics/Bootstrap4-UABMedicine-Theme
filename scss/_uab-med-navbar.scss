@@ -4,48 +4,48 @@
 }
 
 // uab-med Trims for navbar
-.navbar-uab-med-trim, .navbar-uab-med-green-trim {
-  border-bottom: .5rem solid $brand-uab-med;
+.navbar-uab-trim, .navbar-uab-green-trim {
+  border-bottom: .5rem solid $brand-uab;
 }
 
-.navbar-uab-med-blue-trim {
-  border-bottom: .5rem solid $brand-uab-med-blue;
+.navbar-uab-blue-trim {
+  border-bottom: .5rem solid $brand-uab-blue;
 }
 
-.navbar-uab-med-red-trim {
-  border-bottom: .5rem solid $brand-uab-med-red;
+.navbar-uab-red-trim {
+  border-bottom: .5rem solid $brand-uab-red;
 }
 
-.navbar-uab-med-light-green-trim {
-  border-bottom: .5rem solid $brand-uab-med-light-green;
+.navbar-uab-light-green-trim {
+  border-bottom: .5rem solid $brand-uab-light-green;
 }
 
-.navbar-uab-med-gold-trim {
-  border-bottom: .5rem solid $brand-uab-med-gold;
+.navbar-uab-gold-trim {
+  border-bottom: .5rem solid $brand-uab-gold;
 }
 
-.navbar-uab-med-offwhite-trim {
-  border-bottom: .5rem solid $brand-uab-med-offwhite;
+.navbar-uab-offwhite-trim {
+  border-bottom: .5rem solid $brand-uab-offwhite;
 }
 
-.navbar-uab-med-gray-trim {
-  border-bottom: .5rem solid $brand-uab-med-gray;
+.navbar-uab-gray-trim {
+  border-bottom: .5rem solid $brand-uab-gray;
 }
 
-.navbar-uab-med-pale-blue-trim {
-  border-bottom: .5rem solid $brand-uab-med-pale-blue;
+.navbar-uab-pale-blue-trim {
+  border-bottom: .5rem solid $brand-uab-pale-blue;
 }
 
-.navbar-uab-med-aqua-trim {
-  border-bottom: .5rem solid $brand-uab-med-aqua;
+.navbar-uab-aqua-trim {
+  border-bottom: .5rem solid $brand-uab-aqua;
 }
 
-.navbar-uab-med-blue-green-trim {
-  border-bottom: .5rem solid $brand-uab-med-blue-green;
+.navbar-uab-blue-green-trim {
+  border-bottom: .5rem solid $brand-uab-blue-green;
 }
 
-.navbar-uab-med-sand-trim {
-  border-bottom: .5rem solid $brand-uab-med-sand;
+.navbar-uab-sand-trim {
+  border-bottom: .5rem solid $brand-uab-sand;
 }
 
 // Dark links against a white background
@@ -94,26 +94,26 @@
 }
 
 // Brand colored links
-.navbar-uab-med-links, .navbar-uab-med-green-links {
+.navbar-uab-links, .navbar-uab-green-links {
   .navbar-brand,
   .navbar-toggler {
-    color: $navbar-uab-med-active-color;
+    color: $navbar-uab-active-color;
 
     @include hover-focus {
-      color: $navbar-uab-med-active-color;
+      color: $navbar-uab-active-color;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-uab-med-color;
+      color: $navbar-uab-color;
 
       @include hover-focus {
-        color: $navbar-uab-med-hover-color;
+        color: $navbar-uab-hover-color;
       }
 
       &.disabled {
-        color: $navbar-uab-med-disabled-color;
+        color: $navbar-uab-disabled-color;
       }
     }
 
@@ -121,43 +121,43 @@
     .active > .nav-link,
     .nav-link.open,
     .nav-link.active {
-      color: $navbar-uab-med-active-color;
+      color: $navbar-uab-active-color;
     }
   }
 
   .navbar-toggler {
-    border-color: $navbar-uab-med-toggler-border;
+    border-color: $navbar-uab-toggler-border;
   }
 
   .navbar-toggler-icon {
-    background-image: $navbar-uab-med-toggler-bg;
+    background-image: $navbar-uab-toggler-bg;
   }
 
   .navbar-text {
-    color: $navbar-uab-med-color;
+    color: $navbar-uab-color;
   }
 }
 
-.navbar-uab-med-blue-links {
+.navbar-uab-blue-links {
   .navbar-brand,
   .navbar-toggler {
-    color: $navbar-uab-med-blue-active-color;
+    color: $navbar-uab-blue-active-color;
 
     @include hover-focus {
-      color: $navbar-uab-med-blue-active-color;
+      color: $navbar-uab-blue-active-color;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-uab-med-blue-color;
+      color: $navbar-uab-blue-color;
 
       @include hover-focus {
-        color: $navbar-uab-med-blue-hover-color;
+        color: $navbar-uab-blue-hover-color;
       }
 
       &.disabled {
-        color: $navbar-uab-med-blue-disabled-color;
+        color: $navbar-uab-blue-disabled-color;
       }
     }
 
@@ -165,43 +165,43 @@
     .active > .nav-link,
     .nav-link.open,
     .nav-link.active {
-      color: $navbar-uab-med-blue-active-color;
+      color: $navbar-uab-blue-active-color;
     }
   }
 
   .navbar-toggler {
-    border-color: $navbar-uab-med-blue-toggler-border;
+    border-color: $navbar-uab-blue-toggler-border;
   }
 
   .navbar-toggler-icon {
-    background-image: $navbar-uab-med-blue-toggler-bg;
+    background-image: $navbar-uab-blue-toggler-bg;
   }
 
   .navbar-text {
-    color: $navbar-uab-med-blue-color;
+    color: $navbar-uab-blue-color;
   }
 }
 
-.navbar-uab-med-red-links {
+.navbar-uab-red-links {
   .navbar-brand,
   .navbar-toggler {
-    color: $navbar-uab-med-red-active-color;
+    color: $navbar-uab-red-active-color;
 
     @include hover-focus {
-      color: $navbar-uab-med-red-active-color;
+      color: $navbar-uab-red-active-color;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-uab-med-red-color;
+      color: $navbar-uab-red-color;
 
       @include hover-focus {
-        color: $navbar-uab-med-red-hover-color;
+        color: $navbar-uab-red-hover-color;
       }
 
       &.disabled {
-        color: $navbar-uab-med-red-disabled-color;
+        color: $navbar-uab-red-disabled-color;
       }
     }
 
@@ -209,43 +209,43 @@
     .active > .nav-link,
     .nav-link.open,
     .nav-link.active {
-      color: $navbar-uab-med-red-active-color;
+      color: $navbar-uab-red-active-color;
     }
   }
 
   .navbar-toggler {
-    border-color: $navbar-uab-med-red-toggler-border;
+    border-color: $navbar-uab-red-toggler-border;
   }
 
   .navbar-toggler-icon {
-    background-image: $navbar-uab-med-red-toggler-bg;
+    background-image: $navbar-uab-red-toggler-bg;
   }
 
   .navbar-text {
-    color: $navbar-uab-med-red-color;
+    color: $navbar-uab-red-color;
   }
 }
 
-.navbar-uab-med-light-green-links {
+.navbar-uab-light-green-links {
   .navbar-brand,
   .navbar-toggler {
-    color: $navbar-uab-med-light-green-active-color;
+    color: $navbar-uab-light-green-active-color;
 
     @include hover-focus {
-      color: $navbar-uab-med-light-green-active-color;
+      color: $navbar-uab-light-green-active-color;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-uab-med-light-green-color;
+      color: $navbar-uab-light-green-color;
 
       @include hover-focus {
-        color: $navbar-uab-med-light-green-hover-color;
+        color: $navbar-uab-light-green-hover-color;
       }
 
       &.disabled {
-        color: $navbar-uab-med-light-green-disabled-color;
+        color: $navbar-uab-light-green-disabled-color;
       }
     }
 
@@ -253,43 +253,43 @@
     .active > .nav-link,
     .nav-link.open,
     .nav-link.active {
-      color: $navbar-uab-med-light-green-active-color;
+      color: $navbar-uab-light-green-active-color;
     }
   }
 
   .navbar-toggler {
-    border-color: $navbar-uab-med-light-green-toggler-border;
+    border-color: $navbar-uab-light-green-toggler-border;
   }
 
   .navbar-toggler-icon {
-    background-image: $navbar-uab-med-light-green-toggler-bg;
+    background-image: $navbar-uab-light-green-toggler-bg;
   }
 
   .navbar-text {
-    color: $navbar-uab-med-light-green-color;
+    color: $navbar-uab-light-green-color;
   }
 }
 
-.navbar-uab-med-gold-links {
+.navbar-uab-gold-links {
   .navbar-brand,
   .navbar-toggler {
-    color: $navbar-uab-med-gold-active-color;
+    color: $navbar-uab-gold-active-color;
 
     @include hover-focus {
-      color: $navbar-uab-med-gold-active-color;
+      color: $navbar-uab-gold-active-color;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-uab-med-gold-color;
+      color: $navbar-uab-gold-color;
 
       @include hover-focus {
-        color: $navbar-uab-med-gold-hover-color;
+        color: $navbar-uab-gold-hover-color;
       }
 
       &.disabled {
-        color: $navbar-uab-med-gold-disabled-color;
+        color: $navbar-uab-gold-disabled-color;
       }
     }
 
@@ -297,43 +297,43 @@
     .active > .nav-link,
     .nav-link.open,
     .nav-link.active {
-      color: $navbar-uab-med-gold-active-color;
+      color: $navbar-uab-gold-active-color;
     }
   }
 
   .navbar-toggler {
-    border-color: $navbar-uab-med-gold-toggler-border;
+    border-color: $navbar-uab-gold-toggler-border;
   }
 
   .navbar-toggler-icon {
-    background-image: $navbar-uab-med-gold-toggler-bg;
+    background-image: $navbar-uab-gold-toggler-bg;
   }
 
   .navbar-text {
-    color: $navbar-uab-med-gold-color;
+    color: $navbar-uab-gold-color;
   }
 }
 
-.navbar-uab-med-offwhite-links {
+.navbar-uab-offwhite-links {
   .navbar-brand,
   .navbar-toggler {
-    color: $navbar-uab-med-offwhite-active-color;
+    color: $navbar-uab-offwhite-active-color;
 
     @include hover-focus {
-      color: $navbar-uab-med-offwhite-active-color;
+      color: $navbar-uab-offwhite-active-color;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-uab-med-offwhite-color;
+      color: $navbar-uab-offwhite-color;
 
       @include hover-focus {
-        color: $navbar-uab-med-offwhite-hover-color;
+        color: $navbar-uab-offwhite-hover-color;
       }
 
       &.disabled {
-        color: $navbar-uab-med-offwhite-disabled-color;
+        color: $navbar-uab-offwhite-disabled-color;
       }
     }
 
@@ -341,43 +341,43 @@
     .active > .nav-link,
     .nav-link.open,
     .nav-link.active {
-      color: $navbar-uab-med-offwhite-active-color;
+      color: $navbar-uab-offwhite-active-color;
     }
   }
 
   .navbar-toggler {
-    border-color: $navbar-uab-med-offwhite-toggler-border;
+    border-color: $navbar-uab-offwhite-toggler-border;
   }
 
   .navbar-toggler-icon {
-    background-image: $navbar-uab-med-offwhite-toggler-bg;
+    background-image: $navbar-uab-offwhite-toggler-bg;
   }
 
   .navbar-text {
-    color: $navbar-uab-med-offwhite-color;
+    color: $navbar-uab-offwhite-color;
   }
 }
 
-.navbar-uab-med-gray-links {
+.navbar-uab-gray-links {
   .navbar-brand,
   .navbar-toggler {
-    color: $navbar-uab-med-gray-active-color;
+    color: $navbar-uab-gray-active-color;
 
     @include hover-focus {
-      color: $navbar-uab-med-gray-active-color;
+      color: $navbar-uab-gray-active-color;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-uab-med-gray-color;
+      color: $navbar-uab-gray-color;
 
       @include hover-focus {
-        color: $navbar-uab-med-gray-hover-color;
+        color: $navbar-uab-gray-hover-color;
       }
 
       &.disabled {
-        color: $navbar-uab-med-gray-disabled-color;
+        color: $navbar-uab-gray-disabled-color;
       }
     }
 
@@ -385,43 +385,43 @@
     .active > .nav-link,
     .nav-link.open,
     .nav-link.active {
-      color: $navbar-uab-med-gray-active-color;
+      color: $navbar-uab-gray-active-color;
     }
   }
 
   .navbar-toggler {
-    border-color: $navbar-uab-med-gray-toggler-border;
+    border-color: $navbar-uab-gray-toggler-border;
   }
 
   .navbar-toggler-icon {
-    background-image: $navbar-uab-med-gray-toggler-bg;
+    background-image: $navbar-uab-gray-toggler-bg;
   }
 
   .navbar-text {
-    color: $navbar-uab-med-gray-color;
+    color: $navbar-uab-gray-color;
   }
 }
 
-.navbar-uab-med-pale-blue-links {
+.navbar-uab-pale-blue-links {
   .navbar-brand,
   .navbar-toggler {
-    color: $navbar-uab-med-pale-blue-active-color;
+    color: $navbar-uab-pale-blue-active-color;
 
     @include hover-focus {
-      color: $navbar-uab-med-pale-blue-active-color;
+      color: $navbar-uab-pale-blue-active-color;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-uab-med-pale-blue-color;
+      color: $navbar-uab-pale-blue-color;
 
       @include hover-focus {
-        color: $navbar-uab-med-pale-blue-hover-color;
+        color: $navbar-uab-pale-blue-hover-color;
       }
 
       &.disabled {
-        color: $navbar-uab-med-pale-blue-disabled-color;
+        color: $navbar-uab-pale-blue-disabled-color;
       }
     }
 
@@ -429,43 +429,43 @@
     .active > .nav-link,
     .nav-link.open,
     .nav-link.active {
-      color: $navbar-uab-med-pale-blue-active-color;
+      color: $navbar-uab-pale-blue-active-color;
     }
   }
 
   .navbar-toggler {
-    border-color: $navbar-uab-med-pale-blue-toggler-border;
+    border-color: $navbar-uab-pale-blue-toggler-border;
   }
 
   .navbar-toggler-icon {
-    background-image: $navbar-uab-med-pale-blue-toggler-bg;
+    background-image: $navbar-uab-pale-blue-toggler-bg;
   }
 
   .navbar-text {
-    color: $navbar-uab-med-pale-blue-color;
+    color: $navbar-uab-pale-blue-color;
   }
 }
 
-.navbar-uab-med-aqua-links {
+.navbar-uab-aqua-links {
   .navbar-brand,
   .navbar-toggler {
-    color: $navbar-uab-med-aqua-active-color;
+    color: $navbar-uab-aqua-active-color;
 
     @include hover-focus {
-      color: $navbar-uab-med-aqua-active-color;
+      color: $navbar-uab-aqua-active-color;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-uab-med-aqua-color;
+      color: $navbar-uab-aqua-color;
 
       @include hover-focus {
-        color: $navbar-uab-med-aqua-hover-color;
+        color: $navbar-uab-aqua-hover-color;
       }
 
       &.disabled {
-        color: $navbar-uab-med-aqua-disabled-color;
+        color: $navbar-uab-aqua-disabled-color;
       }
     }
 
@@ -473,43 +473,43 @@
     .active > .nav-link,
     .nav-link.open,
     .nav-link.active {
-      color: $navbar-uab-med-aqua-active-color;
+      color: $navbar-uab-aqua-active-color;
     }
   }
 
   .navbar-toggler {
-    border-color: $navbar-uab-med-aqua-toggler-border;
+    border-color: $navbar-uab-aqua-toggler-border;
   }
 
   .navbar-toggler-icon {
-    background-image: $navbar-uab-med-aqua-toggler-bg;
+    background-image: $navbar-uab-aqua-toggler-bg;
   }
 
   .navbar-text {
-    color: $navbar-uab-med-aqua-color;
+    color: $navbar-uab-aqua-color;
   }
 }
 
-.navbar-uab-med-blue-green-links {
+.navbar-uab-blue-green-links {
   .navbar-brand,
   .navbar-toggler {
-    color: $navbar-uab-med-blue-green-active-color;
+    color: $navbar-uab-blue-green-active-color;
 
     @include hover-focus {
-      color: $navbar-uab-med-blue-green-active-color;
+      color: $navbar-uab-blue-green-active-color;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-uab-med-blue-green-color;
+      color: $navbar-uab-blue-green-color;
 
       @include hover-focus {
-        color: $navbar-uab-med-blue-green-hover-color;
+        color: $navbar-uab-blue-green-hover-color;
       }
 
       &.disabled {
-        color: $navbar-uab-med-blue-green-disabled-color;
+        color: $navbar-uab-blue-green-disabled-color;
       }
     }
 
@@ -517,43 +517,43 @@
     .active > .nav-link,
     .nav-link.open,
     .nav-link.active {
-      color: $navbar-uab-med-blue-green-active-color;
+      color: $navbar-uab-blue-green-active-color;
     }
   }
 
   .navbar-toggler {
-    border-color: $navbar-uab-med-blue-green-toggler-border;
+    border-color: $navbar-uab-blue-green-toggler-border;
   }
 
   .navbar-toggler-icon {
-    background-image: $navbar-uab-med-blue-green-toggler-bg;
+    background-image: $navbar-uab-blue-green-toggler-bg;
   }
 
   .navbar-text {
-    color: $navbar-uab-med-blue-green-color;
+    color: $navbar-uab-blue-green-color;
   }
 }
 
-.navbar-uab-med-sand-links {
+.navbar-uab-sand-links {
   .navbar-brand,
   .navbar-toggler {
-    color: $navbar-uab-med-sand-active-color;
+    color: $navbar-uab-sand-active-color;
 
     @include hover-focus {
-      color: $navbar-uab-med-sand-active-color;
+      color: $navbar-uab-sand-active-color;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-uab-med-sand-color;
+      color: $navbar-uab-sand-color;
 
       @include hover-focus {
-        color: $navbar-uab-med-sand-hover-color;
+        color: $navbar-uab-sand-hover-color;
       }
 
       &.disabled {
-        color: $navbar-uab-med-sand-disabled-color;
+        color: $navbar-uab-sand-disabled-color;
       }
     }
 
@@ -561,19 +561,19 @@
     .active > .nav-link,
     .nav-link.open,
     .nav-link.active {
-      color: $navbar-uab-med-sand-active-color;
+      color: $navbar-uab-sand-active-color;
     }
   }
 
   .navbar-toggler {
-    border-color: $navbar-uab-med-sand-toggler-border;
+    border-color: $navbar-uab-sand-toggler-border;
   }
 
   .navbar-toggler-icon {
-    background-image: $navbar-uab-med-sand-toggler-bg;
+    background-image: $navbar-uab-sand-toggler-bg;
   }
 
   .navbar-text {
-    color: $navbar-uab-med-sand-color;
+    color: $navbar-uab-sand-color;
   }
 }

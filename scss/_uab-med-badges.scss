@@ -2,46 +2,46 @@
 //
 // Contextual variations (linked badges get darker on :hover).
 
-.badge-uab-med, .badge-uab-med-green {
-  @include badge-variant($badge-uab-med-bg);
+.badge-uab, .badge-uab-green {
+  @include badge-variant($badge-uab-bg);
 }
 
-.badge-uab-med-blue {
-  @include badge-variant($badge-uab-med-blue-bg);
+.badge-uab-blue {
+  @include badge-variant($badge-uab-blue-bg);
 }
 
-.badge-uab-med-red {
-  @include badge-variant($badge-uab-med-red-bg);
+.badge-uab-red {
+  @include badge-variant($badge-uab-red-bg);
 }
 
-.badge-uab-med-light-green {
-  @include badge-variant($badge-uab-med-light-green-bg);
+.badge-uab-light-green {
+  @include badge-variant($badge-uab-light-green-bg);
 }
 
-.badge-uab-med-gold {
-  @include badge-variant($badge-uab-med-gold-bg);
+.badge-uab-gold {
+  @include badge-variant($badge-uab-gold-bg);
 }
 
-.badge-uab-med-offwhite {
-  @include badge-variant($badge-uab-med-offwhite-bg);
+.badge-uab-offwhite {
+  @include badge-variant($badge-uab-offwhite-bg);
 }
 
-.badge-uab-med-gray {
-  @include badge-variant($badge-uab-med-gray-bg);
+.badge-uab-gray {
+  @include badge-variant($badge-uab-gray-bg);
 }
 
-.badge-uab-med-pale-blue {
-  @include badge-variant($badge-uab-med-pale-blue-bg);
+.badge-uab-pale-blue {
+  @include badge-variant($badge-uab-pale-blue-bg);
 }
 
-.badge-uab-med-aqua {
-  @include badge-variant($badge-uab-med-aqua-bg);
+.badge-uab-aqua {
+  @include badge-variant($badge-uab-aqua-bg);
 }
 
-.badge-uab-med-blue-green {
-  @include badge-variant($badge-uab-med-blue-green-bg);
+.badge-uab-blue-green {
+  @include badge-variant($badge-uab-blue-green-bg);
 }
 
-.badge-uab-med-sand {
-  @include badge-variant($badge-uab-med-sand-bg);
+.badge-uab-sand {
+  @include badge-variant($badge-uab-sand-bg);
 }

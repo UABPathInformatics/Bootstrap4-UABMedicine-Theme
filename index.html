@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Bade Iriabho, Adrian Flannery, Division of Informatics, Department of Pathology, UAB">
+    <title>UAB Medicine Bootstrap 4</title>
+
+    <link href="demo/css/uab-med/bootstrap.min.css" rel="stylesheet">
+    <link href="demo/css/main.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-toggleable-md fixed-top navbar-white navbar-uab-med-trim navbar-dark-links">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class= "navbar-brand" href="../">
+                UAB Branded Bootstraps
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" title="UAB-Bootstrap" id="uabBSDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            UAB Bootstrap
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="uabBSDropdownMenuLink">
+                            <a class="dropdown-item" href="../Bootstrap4-UAB-Theme">Demo</a>
+                            <a class="dropdown-item" href="https://github.com/UABPathInformatics/Bootstrap4-UAB-Theme"  target="_blank">Source Files</a>
+                            <a class="dropdown-item" href="https://www.uab.edu/brand/home" target="_blank">UAB Brand Center</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a href="#" class="nav-link dropdown-toggle" title="UAB-Medicine-Bootstrap" id="uabMBSDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            UAB Medicine Bootstrap
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="uabMBSDropdownMenuLink">
+                            <a class="dropdown-item" href="">Demo</a>
+                            <a class="dropdown-item" href="https://github.com/UABPathInformatics/Bootstrap4-UABMedicine-Theme"  target="_blank">Source Files</a>
+                            <a class="dropdown-item" href="http://branding.uabmedicineblog.org/" target="_blank">UAB Medicine Brand Center</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav pull-sm-right">
+                    <li class="nav-item">
+                        <a href="http://v4-alpha.getbootstrap.com/" target="_blank" class="nav-link" title="Bootstrap-4">Bootstrap 4</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 hidden-md-down">
+                <div class="row wrapper">
+                    <div class="fixed">
+                        <div class="card mb-3 navbar-dark-links">
+                            <div class="card-block">
+                                <h4>Components</h4>
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <a class="nav-link" href="#button">Buttons</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#badge">Badges</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#card">Cards</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#text">Text</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#background">Backgrounds</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#navbar">Navbars</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#navbar-link">Navbar Links</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="card-block">
+                                <h4>About</h4>
+                                <div class="card-text">
+                                    UAB Medicine Bootstrap adds UAB Medicine brand colors to many of the components available in Bootstrap.
+                                    The current version uses Bootstrap 4-alpha.6.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-9 main">
+
+                <div class="card mb-3">
+                    <h4 class="card-header text-white bg-uab-med">Convention</h4>
+                    <div class="card-block">
+                        <div class="btn-group">
+                            <a href="" class="btn btn-uab-med-gold active">
+                                uab-med
+                            </a>
+                            <a href="index.html" class="btn btn-uab-med-gold">
+                                uab
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="anchored" id="button">
+                    <div class="card mb-3 button-demo">
+                        <h4 class="card-header text-white bg-uab-med">Buttons, btn-*</h4>
+                        <div class="card-block">
+                            <button class="btn btn-uab-med">uab-med</button>
+                            <button class="btn btn-uab-med-blue">uab-med-blue</button>
+                            <button class="btn btn-uab-med-red">uab-med-red</button>
+                            <button class="btn btn-uab-med-light-green">uab-med-light-green</button>
+                            <button class="btn btn-uab-med-gold">uab-med-gold</button>
+                            <button class="btn btn-uab-med-offwhite">uab-med-offwhite</button>
+                            <button class="btn btn-uab-med-gray">uab-med-gray</button>
+                            <button class="btn btn-uab-med-pale-blue">uab-med-pale-blue</button>
+                            <button class="btn btn-uab-med-aqua">uab-med-aqua</button>
+                            <button class="btn btn-uab-med-blue-green">uab-med-blue-green</button>
+                            <button class="btn btn-uab-med-sand">uab-med-sand</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="anchored" id="badge">
+                    <div class="card mb-3">
+                        <h4 class="card-header text-white bg-uab-med">Badges, badge-*</h4>
+                        <div class="card-block">
+                            <span class="badge badge-uab-med">uab-med</span>
+                            <span class="badge badge-uab-med-blue">uab-med-blue</span>
+                            <span class="badge badge-uab-med-red">uab-med-red</span>
+                            <span class="badge badge-uab-med-light-green">uab-med-light-green</span>
+                            <span class="badge badge-uab-med-gold">uab-med-gold</span>
+                            <span class="badge badge-uab-med-offwhite">uab-med-offwhite</span>
+                            <span class="badge badge-uab-med-gray">uab-med-gray</span>
+                            <span class="badge badge-uab-med-pale-blue">uab-med-pale-blue</span>
+                            <span class="badge badge-uab-med-aqua">uab-med-aqua</span>
+                            <span class="badge badge-uab-med-blue-green">uab-med-blue-green</span>
+                            <span class="badge badge-uab-med-sand">uab-med-sand</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="anchored" id="card">
+                    <div class="card mb-3">
+                        <h4 class="card-header text-white bg-uab-med">Cards, card-*</h4>
+                        <div class="card-block">
+                            <div class="card mb-3 card-inverse card-uab-med">
+                                <div class="card-block">
+                                    card-inverse card-uab-med
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-inverse card-uab-med-blue">
+                                <div class="card-block">
+                                    card-inverse card-uab-med-blue
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-inverse card-uab-med-red">
+                                <div class="card-block">
+                                    card-inverse card-uab-med-red
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-inverse card-uab-med-light-green">
+                                <div class="card-block">
+                                    card-inverse card-uab-med-light-green
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-inverse card-uab-med-gold">
+                                <div class="card-block">
+                                    card-inverse card-uab-med-gold
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-uab-med-offwhite">
+                                <div class="card-block">
+                                    card-uab-med-offwhite
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-inverse card-uab-med-gray">
+                                <div class="card-block">
+                                    card-inverse card-uab-med-gray
+                                </div>
+                            </div>
+                           <div class="card mb-3 card-inverse card-uab-med-pale-blue">
+                                <div class="card-block">
+                                    card-inverse card-uab-med-pale-blue
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-inverse card-uab-med-aqua">
+                                <div class="card-block">
+                                    card-inverse card-uab-med-aqua
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-inverse card-uab-med-blue-green">
+                                <div class="card-block">
+                                    card-inverse card-uab-med-blue-green
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-uab-med-sand">
+                                <div class="card-block">
+                                    card-uab-med-sand
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-block">
+                            <div class="card mb-3 card-outline-uab-med">
+                                <div class="card-block">
+                                    card-outline-uab-med
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-outline-uab-med-blue">
+                                <div class="card-block">
+                                    card-outline-uab-med-blue
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-outline-uab-med-red">
+                                <div class="card-block">
+                                    card-outline-uab-med-red
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-outline-uab-med-light-green">
+                                <div class="card-block">
+                                    card-outline-uab-med-light-green
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-outline-uab-med-gold">
+                                <div class="card-block">
+                                    card-outline-uab-med-gold
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-outline-uab-med-offwhite">
+                                <div class="card-block">
+                                    card-outline-uab-med-offwhite
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-outline-uab-med-gray">
+                                <div class="card-block">
+                                    card-outline-uab-med-gray
+                                </div>
+                            </div>
+                           <div class="card mb-3 card-outline-uab-med-pale-blue">
+                                <div class="card-block">
+                                    card-outline-uab-med-pale-blue
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-outline-uab-med-aqua">
+                                <div class="card-block">
+                                    card-outline-uab-med-aqua
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-outline-uab-med-blue-green">
+                                <div class="card-block">
+                                    card-outline-uab-med-blue-green
+                                </div>
+                            </div>
+                            <div class="card mb-3 card-outline-uab-med-sand">
+                                <div class="card-block">
+                                    card-outline-uab-med-sand
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="anchored" id="text">
+                    <div class="card mb-3">
+                        <h4 class="card-header text-white bg-uab-med">Text, text-*</h4>
+                        <div class="card-block">
+                            <span class="text-uab-med">uab-med</span>
+                            <span class="text-uab-med-blue">uab-med-blue</span>
+                            <span class="text-uab-med-red">uab-med-red</span>
+                            <span class="text-uab-med-light-green">uab-med-light-green</span>
+                            <span class="text-uab-med-gold">uab-med-gold</span>
+                            <span class="text-uab-med-offwhite">uab-med-offwhite</span>
+                            <span class="text-uab-med-gray">uab-med-gray</span>
+                            <span class="text-uab-med-pale-blue">uab-med-pale-blue</span>
+                            <span class="text-uab-med-aqua">uab-med-aqua</span>
+                            <span class="text-uab-med-blue-green">uab-med-blue-green</span>
+                            <span class="text-uab-med-sand">uab-med-sand</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="anchored" id="background">
+                    <div class="card mb-3">
+                        <h4 class="card-header text-white bg-uab-med">Background, bg-*</h4>
+                        <div class="card-block bg-demo">
+                            <div class="bg-uab-med">uab-med</div>
+                            <div class="bg-uab-med-blue">uab-med-blue</div>
+                            <div class="bg-uab-med-red">uab-med-red</div>
+                            <div class="bg-uab-med-light-green">uab-med-light-green</div>
+                            <div class="bg-uab-med-gold">uab-med-gold</div>
+                            <div class="bg-uab-med-offwhite">uab-med-offwhite</div>
+                            <div class="bg-uab-med-gray">uab-med-gray</div>
+                            <div class="bg-uab-med-pale-blue">uab-med-pale-blue</div>
+                            <div class="bg-uab-med-aqua">uab-med-aqua</div>
+                            <div class="bg-uab-med-blue-green">uab-med-blue-green</div>
+                            <div class="bg-uab-med-sand">uab-med-sand</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="anchored" id="navbar">
+                    <div class="card mb-3">
+                        <h4 class="card-header text-white bg-uab-med">Navbars</h4>
+                        <div class="card-block">
+                            <div class="card mb-3">
+                                <nav class="navbar bg-uab-med navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            bg-uab-med or any other bg-* class
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            navbar-white
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-trim navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            navbar-white navbar-uab-med-trim
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-blue-trim navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            navbar-white navbar-uab-med-blue-trim
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-red-trim navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            navbar-white navbar-uab-med-red-trim
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-light-green-trim navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            navbar-white navbar-uab-med-light-green-trim
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-gold-trim navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            navbar-white navbar-uab-med-gold-trim
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-offwhite-trim navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            navbar-white navbar-uab-med-offwhite-trim
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-gray-trim navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            navbar-white navbar-uab-med-gray-trim
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-pale-blue-trim navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            navbar-white navbar-uab-med-pale-blue-trim
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-aqua-trim navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            navbar-white navbar-uab-med-aqua-trim
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-blue-green-trim navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            navbar-white navbar-uab-med-blue-green-trim
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-sand-trim navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            navbar-white navbar-uab-med-sand-trim
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="anchored" id="navbar-link">
+                    <div class="card mb-3">
+                        <h4 class="card-header text-white bg-uab-med">Navbars Links, navbar-*-links</h4>
+                        <div class="card-block">
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-dark-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            dark
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            uab-med
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-blue-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            uab-med-blue
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar navbar-white navbar-uab-med-red-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            uab-med-red
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar bg-inverse navbar-uab-med-light-green-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            uab-med-light-green
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar bg-inverse navbar-uab-med-gold-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            uab-med-gold
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar bg-inverse navbar-uab-med-offwhite-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            uab-med-offwhite
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar bg-inverse navbar-uab-med-gray-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            uab-med-gray
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar bg-inverse navbar-uab-med-pale-blue-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            uab-med-pale-blue
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar bg-inverse navbar-uab-med-aqua-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            uab-med-aqua
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar bg-inverse navbar-uab-med-blue-green-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            uab-med-blue-green
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <div class="card mb-3">
+                                <nav class="navbar bg-inverse navbar-uab-med-sand-links">
+                                    <div class="container">
+                                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#collapsable-navbar">
+                                            &#9776;
+                                        </button>
+                                        <a class= "navbar-brand" href="#">
+                                            uab-med-sand
+                                        </a>
+                                        <div class="collapse navbar-toggleable-sm" id="collapsable-navbar">
+                                            <ul class="nav navbar-nav">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link">Sample Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="footer">
+            <div>
+                Managed by <a href="http://www.uab.edu/medicine/pathology/divisions-sidemenu/informatics" target="_blank">Division of Informatics</a>, Department of Pathology<br />
+                University of Alabama at Birmingham
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="demo/js/tether.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

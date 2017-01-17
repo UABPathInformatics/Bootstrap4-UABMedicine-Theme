@@ -9,14 +9,14 @@ kramdown:
 permalink:        pretty
 
 # Server
-source:           docs
+source:           .
 destination:      _gh_pages
 host:             0.0.0.0
 port:             9001
 baseurl:          ""
-url:              https://v4-alpha.getbootstrap.com
+url:              http://uabpathinformatics.github.io/
 encoding:         UTF-8
-exclude:          [assets/scss/]
+exclude:          [docs, grunt, js, node_modules, nuget, scss]
 
 gems:
   - jekyll-redirect-from
